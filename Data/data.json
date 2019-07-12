@@ -1,0 +1,70 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "first_name": "Robert",
+            "last_name": "Schwartz",
+            "email": "admin@email.com"
+        }
+
+    ],
+    "accounts": [
+        {
+            "id": 1,
+            "name": "",
+            "email":"",
+            "phone": "",
+            "industry": "",
+            "website": "",
+            "description": "",
+            "createdBy": 1,
+            "createdAt": "",
+            "isActive": true
+        }
+    ],
+    "contacts": [
+        {
+            "id": 1,
+            "first_name": "",
+            "last_name": "",
+            "account": 1,
+            "status":1,
+            "source": 1,
+            "email": "",
+            "phone": "",
+            "address": "",
+            "description": "",
+            "createdBy": 1,
+            "createdAt": "",
+            "isActive": true
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "description": "",
+            "createdAt" : "",
+            "contact": 1,
+            "status": 1
+        }
+    ],
+    "contactsources": [
+        {
+            "id":1,
+            "source": ""
+        }
+    ],
+    "contactstatuses": [
+        {
+            "id":1,
+            "status": ""
+        }
+    ],
+    "activitystatuses":[
+        {
+            "id":1,
+            "status": ""
+        }
+    ]
+}
+
