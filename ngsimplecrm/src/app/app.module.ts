@@ -10,6 +10,9 @@ import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactCreateComponent } from './contact-create/contact-create.component';
 import { ActivityListComponent } from './activity-list/activity-list.component';
 import { ActivityCreateComponent } from './activity-create/activity-create.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
+
 
 @NgModule({
   declarations: [
@@ -23,8 +26,14 @@ import { ActivityCreateComponent } from './activity-create/activity-create.compo
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
     AppRoutingModule,
-    HttpClientModule
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
